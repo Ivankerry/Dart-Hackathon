@@ -261,26 +261,13 @@ Contributing
 
 5. Create a new Pull Request.
 
-
-
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 Acknowledgments
 
 Flutter - The UI framework used for building the app.
 
 Firebase - Used for authentication and Firestore.
 
-Google - For providing tools like Firebase and Flutter.
-
-
-This `README.md` provides a clear structure for your project, with setup instructions, descriptions of features, and guidance for contributing. It also includes placeholders for screenshots if you want to add visual elements of your app later.
-
-
-
-
+Google - For providing tools like Firebase and Flutter
 
 
 
