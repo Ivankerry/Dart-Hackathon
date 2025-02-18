@@ -67,3 +67,21 @@ License
 Note: Replace your_package_name with the actual name of your package.  Also, make sure to create a calculator.dart file (or whatever you name your Dart file) in your project's lib directory containing the code provided earlier.  This README assumes you've packaged this as a Dart package. If it's just a script, adjust the installation and import instructions as needed.
 
 This README provides a comprehensive overview of the calculator function, including its features, usage, installation instructions, error handling, and contribution guidelines.  Remember to choose a license and replace the placeholder text.  If you're not creating a package, you can simplify the installation instructions
+
+
+# Dart Palindrome Checker
+
+This Dart function checks if a given string or number is a palindrome, ignoring spaces, punctuation, and case sensitivity.
+
+## Features
+
+*   Handles both strings and integers as input.
+*   Case-insensitive palindrome check.
+*   Ignores spaces and punctuation.
+*   Efficient two-pointer algorithm for palindrome checking.
+*   Includes error handling for invalid input types.
+
+## Usage
+
+```dart
+bool isPalindrome(dynamic input);
