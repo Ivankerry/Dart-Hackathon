@@ -1,3 +1,5 @@
+# All the assignments readme.md
+
 # Fitness App
 
 A Flutter-based fitness application designed to help users track their daily workouts, steps, and overall progress.
