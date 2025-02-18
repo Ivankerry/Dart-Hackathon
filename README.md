@@ -149,3 +149,138 @@ Steps to Contribute:
 5. Create a new Pull Request
 
 
+
+# Event Management App
+
+This is a Flutter-based Event Management application that integrates Firebase for authentication, user profile management, and event booking functionalities. Users can log in, view and update their profiles, and check booked events from Firebase Firestore.
+
+## Features
+
+- **Firebase Authentication**: Secure login system for users using email and password.
+- **User Profile Management**: Users can edit their profile details (name and phone number).
+- **Event Booking**: Displays events booked by the user, fetched from Firestore.
+- **Real-Time Data Updates**: Uses Firestore's real-time streaming to show the latest data (booked events).
+
+## Tech Stack
+
+- **Flutter**: Framework for building natively compiled applications for mobile from a single codebase.
+- **Firebase**: Backend-as-a-Service for authentication and real-time database (Firestore).
+- **Firestore**: NoSQL cloud database for storing user data and booked events.
+- **Firebase Auth**: Firebase service for user authentication.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/event-management-app.git
+cd event-management-app
+
+2. Install dependencies:
+
+Make sure you have Flutter installed on your machine. Then, run:
+
+flutter pub get
+
+3. Setup Firebase:
+
+1. Go to the Firebase Console.
+
+
+2. Create a new Firebase project.
+
+
+3. Add your Flutter app to Firebase by following the instructions here.
+
+
+4. Enable Firebase Authentication and Firestore in your Firebase Console.
+
+
+
+4. Configure Firebase:
+
+Download the google-services.json (for Android) or GoogleService-Info.plist (for iOS) and place it in the respective directories.
+
+For Android, place the google-services.json file inside the android/app/ folder.
+
+For iOS, place the GoogleService-Info.plist file inside the ios/Runner/ directory.
+
+
+5. Run the app:
+
+To run the app on an emulator or a physical device:
+
+flutter run
+
+Screenshots
+
+Login Screen
+
+
+
+Home Screen
+
+
+
+User Profile
+
+
+
+Structure
+
+lib/main.dart: The main entry point of the application.
+
+lib/screens/: Contains screens for login, home, and user profile.
+
+lib/widgets/: Contains reusable widgets (if any).
+
+lib/models/: Contains models (e.g., User model for Firestore).
+
+lib/services/: Contains services for Firebase authentication and Firestore operations.
+
+
+Firebase Setup
+
+Make sure you have added Firebase to your project correctly, as mentioned in the FlutterFire documentation.
+
+Contributing
+
+1. Fork the repository.
+
+
+2. Create a new branch (git checkout -b feature-name).
+
+
+3. Commit your changes (git commit -am 'Add feature').
+
+
+4. Push to the branch (git push origin feature-name).
+
+
+5. Create a new Pull Request.
+
+
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+
+Flutter - The UI framework used for building the app.
+
+Firebase - Used for authentication and Firestore.
+
+Google - For providing tools like Firebase and Flutter.
+
+
+This `README.md` provides a clear structure for your project, with setup instructions, descriptions of features, and guidance for contributing. It also includes placeholders for screenshots if you want to add visual elements of your app later.
+
+
+
+
+
+
+
